@@ -23,7 +23,7 @@ header {
 
 }
 nav {
-    background-image: url(/html/images/clothebanner.webp);
+    background-image: url('/images/clothebanner.webp');
 
     background-color:#80dfa9;
     color: white;
