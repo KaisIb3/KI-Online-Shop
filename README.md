@@ -1,1 +1,1 @@
-# webSy.github.io
+# KI-Online-Shop.github.io
