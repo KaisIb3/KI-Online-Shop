@@ -5,8 +5,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
   <title>KI Onlin Shop</title>
-  <!-- You will need to link to the CSS file -->
   <link rel="stylesheet" href="css/shop.css">
+  <link rel="stylesheet" href="dest/css/lightbox.css">
 </head>
 
 <body>
@@ -23,16 +23,19 @@
   </header>
   <main>
     <h1>KI Store</h1>
-    <div class="grid">
-      <img src="images/offsales.webp"
-        alt="offsales" width="100">
-      <img src="images/shopAI.png" alt="customize clothes with AI" width="100">
+    <div class="flex">
+      <a href="images/offsales.webp" data-lightbox="images" data-title="offsales">
+        <img src="images/offsales.webp" alt="offsales" width="75%" height="150px">
+      </a>
+      <a href="images/shopAI.png" data-lightbox="images" data-title="customize with AI">
+        <img src="images/shopAI.png" alt="customize with AI" width="100px">
+      </a>
     </div>
   </main>
   <footer>
-    <p>CopyRights by Eng. KI</p>
+    &copy; 2025 KI Online Shop. All Rights Reserved.
   </footer>
-
+  <script src="dist/js/lightbox-plus-jquery.js"></script>
 </body>
 
 </html>
