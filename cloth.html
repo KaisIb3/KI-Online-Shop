@@ -3,10 +3,11 @@
 
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>KI Onlin Shop</title>
-  <!-- You will need to link to the CSS file -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KI Online Shop - Clothes</title>
   <link rel="stylesheet" href="css/shop.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="dest/css/lightbox.css">
 </head>
 
 <body>
@@ -18,30 +19,58 @@
         <li class="current"><a href="cloth.html">KI Clothes</a></li>
       </ul>
     </nav>
-    <img src="images/clothelogo.webp" width="200" alt="Shop logo.">
-    
-
+    <img src="images/clothelogo.webp" width="200" alt="Shop logo">
   </header>
+
   <main>
     <h1>KI Clothes</h1>
-    <div class="flex">
-      <img src="images/KI-blackT.jpeg" alt="Black T-Shirt"
-        width="100">
-      <img src="images/KI-black-jacket.jpeg"
-        alt="black jacket" width="100">
-      <img src="images/black-shoes.jpeg" alt="black shoes" width="100">
-      <img src="images/colorfuldress.jpeg" alt="dress" width="100">
-      <img src="images/black-jeans.jpeg" alt="jeans" width="100">
-      <img src="images/red-tshirt.jpeg" alt="red T-Shirt" width="100">
-      
-
+    <p class="intro-text">Discover our latest fashion collection, designed for comfort and style.</p>
+    
+    <div class="product-grid">
+      <div class="product">
+        <a href="images/KI-blackT.jpeg" data-lightbox="images" data-title="Black T-Shirt">
+          <img src="images/KI-blackT.jpeg" alt="Black T-Shirt">
+        </a>
+        <p>Black T-Shirt</p>
+      </div>
+      <div class="product">
+        <a href="images/KI-black-jacket.jpeg" data-lightbox="images" data-title="Black Jacket">
+          <img src="images/KI-black-jacket.jpeg" alt="Black Jacket">
+        </a>
+        <p>Black Jacket</p>
+      </div>
+      <div class="product">
+        <a href="images/black-shoes.jpeg" data-lightbox="images" data-title="Black Shoes">
+          <img src="images/black-shoes.jpeg" alt="Black Shoes">
+        </a>
+        <p>Black Shoes</p>
+      </div>
+      <div class="product">
+        <a href="images/colorfuldress.jpeg" data-lightbox="images" data-title="Colorful Dress">
+          <img src="images/colorfuldress.jpeg" alt="Colorful Dress">
+        </a>
+        <p>Colorful Dress</p>
+      </div>
+      <div class="product">
+        <a href="images/black-jeans.jpeg" data-lightbox="images" data-title="Black Jeans">
+          <img src="images/black-jeans.jpeg" alt="Black Jeans">
+        </a>
+        <p>Black Jeans</p>
+      </div>
+      <div class="product">
+        <a href="images/red-tshirt.jpeg" data-lightbox="images" data-title="Red T-Shirt">
+          <img src="images/red-tshirt.jpeg" alt="Red T-Shirt">
+        </a>
+        <p>Red T-Shirt</p>
+      </div>
     </div>
-
   </main>
-  <footer>
-    <p>CopyRights by Eng. KI</p>
-  </footer>
 
+  <footer>
+    © 2025 KI Online Shop. All rights reserved.
+  </footer>
+  <script src="dest/js/lightbox-plus-jquery.js"></script>
 </body>
 
 </html>
+
